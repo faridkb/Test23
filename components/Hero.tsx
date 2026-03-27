@@ -76,7 +76,7 @@ export default function Hero() {
             {[210, 228, 246, 264, 282].map((y, i) => (
               <g key={i}>
                 <circle cx="366" cy={y} r="5" fill={['#2563EB', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6'][i]} />
-                <rect x="376" cy={y - 4} y={y - 4} width="60" height="8" rx="4" fill="#E5E7EB" />
+                <rect x="376" y={y - 4} width="60" height="8" rx="4" fill="#E5E7EB" />
               </g>
             ))}
 
